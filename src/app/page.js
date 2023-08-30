@@ -16,6 +16,8 @@ export default function FoodReviewPage() {
   const [value, setValue] = useState(0);
   return (
     <Container size="600px">
+      {/* Review Writing Section */}
+
       <Title order={2} style={{ marginBottom: "1rem" }}>
         Food Review 🍕
       </Title>
@@ -33,6 +35,9 @@ export default function FoodReviewPage() {
         style={{ marginBottom: "1rem" }}
       />
       <Button color="orange">Submit Review</Button>
+
+      {/* Review Comment Section */}
+
       <Divider my="sm" variant="dashed" />
       <Group position="center">
         <Title order={5}>Elon Musk</Title>
