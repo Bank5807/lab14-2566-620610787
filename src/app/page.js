@@ -25,6 +25,7 @@ export default function FoodReviewPage() {
       <Rating
         value={value}
         onChange={setValue}
+        size={"lg"}
         style={{ marginBottom: "1rem" }}
       />
       <Textarea
